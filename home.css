@@ -1,0 +1,36 @@
+html {
+  font-family: Courier New;
+}
+
+  h1 {
+    font-size: 45px;
+    text-align: right;
+    padding-top: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    margin: 0;
+  }
+  h3 {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .linkincon a {
+    text-decoration: underline;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+  }
+  #list {
+    padding: 20px;
+  }
+  #contents {
+    margin-top: 70px;
+  }
