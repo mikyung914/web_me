@@ -34,3 +34,9 @@ html {
   #contents {
     margin-top: 70px;
   }
+
+  @media (max-width: 500px) {
+    #grid {
+      display: block;
+    }
+  }
